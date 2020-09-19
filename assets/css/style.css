@@ -1,0 +1,57 @@
+/* Setting background image of site */
+body {
+    background-image: url("../images/ignasi_pattern_s.png");
+}
+/* Styling of my name in navbar */
+#myName {
+    background-color: #4AAAA5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+/* Styling for the header of each page */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4AAAA5;
+    font-weight: 550;
+}
+/* Styling for the col-sm-7 class (column) that is used across all three pages */
+.col-sm-7 {
+    background-color: white;
+    margin: 75px 15px 75px 15px;
+    padding: 25px;
+}
+
+/* Styling for headshot picture on about page */
+#headshot {
+    float: left; 
+    margin-right: 10px;
+    width: 170px;
+    height: 180px;
+}
+
+/* Styling for button on Contact page */
+.btn {
+    background-color: #4AAAA5;
+    border-color: #4AAAA5;
+    border-radius: 0;
+    padding: 12px 20px 12px 20px;
+}
+
+img {
+    margin: 10px;
+}
+
+/* Override styling for sticky footer */
+footer {
+    border-top-width: 5px!important;
+    border-top-color: #4AAAA5!important;
+    text-align: center;
+}
+
+/* Styling to fix images on portfolio page from leaking out of container when screen width changes to 767px */
+@media screen and (min-width: 576px) {
+    .col-sm-7 {
+        max-width: 100%;
+    }
+}
