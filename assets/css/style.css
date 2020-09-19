@@ -54,7 +54,13 @@ footer {
     color: white;
 }
 
+.socials {
+    padding: 10px;
+}
 
+.socials:hover {
+    background-color: rgba(31, 46, 46, 0.122);
+}
 
 
 
